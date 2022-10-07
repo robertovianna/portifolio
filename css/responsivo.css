@@ -1,0 +1,59 @@
+@media screen and (max-width:1005px){
+.primeirapagina{
+	position:relative;
+	display:block;
+	margin:0;
+	text-align:center;
+}
+.menu{
+	display:none;
+}
+.logo{
+	display:block;
+	margin:0;
+	text-align:center;
+}
+.logo-menu{
+	display:block;
+	margin:0;
+	text-align:center;
+}
+.header{
+	padding-top:50px;
+}
+.headline{
+	flex:100%;
+	margin:5%;
+    text-align:center;
+	max-width: 350px;
+}
+.sobre-mim{
+	flex:100%;
+	margin:1%;
+	text-align:center;
+}
+.headline p{
+	margin:1%;
+	text-align:center;
+	max-width: 350px;
+	
+}
+.img-headline{
+	margin:0%;
+	flex:100%;
+	text-align:center;
+	
+}
+.card{
+	margin:5%;
+}
+.whats{
+	display:none;
+}
+}
+@media screen and (max-width:768px){
+.card{
+	width:80%;
+	margin:5%;
+}
+}

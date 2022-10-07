@@ -1,0 +1,143 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+}
+
+
+.cor-laranja{
+	color:#FF9E00;
+}
+
+.header{
+    display:flex;
+    flex-flow: row wrap;
+	justify-content:center;
+	align-items:center;
+	background: black;
+	padding-top:0px;
+   
+}
+.headline{
+	flex:40%;
+    max-width: 350px;
+	margin-right: 10%;
+}
+.sobre-mim{
+	font-size:60px;
+	color:white;
+	padding:0;
+	margin:0;
+	display:flex;
+}
+.headline h2{
+	font-size:20px;
+	color:white;
+	padding:0;
+	margin:0;
+	display:flex;
+}
+.headline p{
+	color:#FF9E00;
+	text-align:left;
+}
+.contact-btn{
+	display: inline-block;
+	padding:20px;
+	color:white;
+	text-decoration:none;
+	text-transform:uppercase;
+	border-radius: 15px;
+	border: 1px solid #FF9E00;
+}
+.contact-btn:hover{
+	background:gray;
+}
+.img-headline{
+	margin-right:10%;
+	flex:40%;
+	text-align:center;
+	max-width: 550px;
+}
+section{
+	display:inline-block;
+	padding:5px;
+	text-align:center;
+	background:black;
+	margin-top:0px;
+
+}
+section h2{
+	width:100%;
+	font-size:50px;
+	margin:0px;
+	font-family: 'lobster', cursive;
+	font-weight:bold;
+	color:white;
+}
+.servicos{
+	display:inline-block;
+	margin-top:5px;
+}
+.card{
+	display:inline-block;
+	width:30%;
+	padding:20px;
+	margin:1%;
+	border-radius:10px;
+	cursor:pointer;
+	color:white;
+	background:#393838;
+}
+.card:hover{
+	background:gray;	
+	padding:40px;
+	color:white;
+}
+.card:hover img{
+	display:none;
+}
+.card:hover .card-text{
+	display:none;
+}
+.card:hover .texto-oculto{
+	display:block;
+}
+.texto-oculto{
+	display:none;
+}
+.saiba-mais-card{
+	display: inline-block;
+	padding:20px;
+	border: 1px solid #FF9E00;
+	color:white;
+	text-decoration:none;
+	text-transform:uppercase;
+	border-radius: 10px;
+}
+footer{
+	height:350px;
+	background:black;
+  background-image:url("../img/fundo2.jfif");
+	background-size: cover;
+	text-align:center;
+	opacity: 0.8;
+	color:white;
+}
+.rodape{
+	padding:50px;
+}
+.direitos{
+	text-align:center;
+	background:black;
+	color:white;
+	padding:50px;
+}
+.icones{
+	background:black;
+	text-align:center;
+	margin-top:-40px;
+
+
+}

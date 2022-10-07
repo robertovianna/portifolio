@@ -1,0 +1,226 @@
+/*reset pagina*/*
+*{
+padding:0;
+margin:0;
+border:0
+}
+.cabeçalho{
+	height:100vh;
+	align-items:start;
+	background-image: url("../img/img-fundo.jpg") ;
+	background-size: cover;
+	width:100%;
+	
+}
+.logo-menu{
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+	padding-top:20px;
+	
+}
+.logo{
+	text-align:left;
+	margin-left:5%;
+}
+.logo h1{
+  font-family: 'lobster', cursive;
+	color:rgb(255, 254, 254);
+	font-size:34px;
+}
+.menu{
+	text-align:right;
+	padding:20px;
+	flex:20%;
+	margin-top:0px;
+
+}
+.menu a {
+	color:white;
+	text-decoration:none;
+	font-size:15px;
+	padding:20px 16px;	
+}
+.menu a:hover {
+	background:gray;
+	
+}
+.primeira_pagina{
+	align-content: center;
+	margin-left:5%;
+	margin-top:170px;
+}
+.primeira_pagina h1{
+	font-weight:900px;
+	font-size:60px;
+	color:white;
+	padding:0;
+	margin:0;
+	display:flex;
+	justify-content: flex-start;
+	align-content: center;
+}
+.primeira_pagina h2{
+	font-weight:900;
+	font-size:20px;
+	color:white;
+	padding:0;
+	margin:0;
+	display:flex;
+	justify-content: flex-start;
+	align-content: center;
+	
+}
+.primeira_pagina p{
+	color:white;
+	text-align:left;
+}
+.ola{
+	text-decoration: underline;
+	font-size: 19px;
+	color:#FF9E00;
+
+}
+.cor-laranja{
+	color:#FF9E00;
+
+}
+.saiba-mais-btn{
+	display: inline-block;
+	padding:20px;
+	border: 1px solid #FF9E00;
+	color:white;
+	text-decoration:none;
+	text-transform:uppercase;
+	border-radius: 10px;
+	margin-top:10px;
+	
+}
+.saiba-mais-btn:hover{
+	background:gray;
+}
+.header{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content:center;
+  align-items:center;
+  background: #363434;
+  padding-top:0px;
+}
+.headline{
+	flex: 10%;
+	margin-right: 20%;
+	padding: 3%;
+	
+}
+.sobre-mim{
+	font-size:60px;
+	color:white;
+	padding:0;
+	margin:0;
+	display:flex;
+}
+.headline h2{
+	font-size:20px;
+	color:white;
+	padding:0;
+	margin:0;
+	display:flex;
+}
+.headline p{
+	color:#FF9E00;
+	text-align:left;
+}
+.download-btn{
+	display: inline-block;
+	padding:20px;
+	color:white;
+	text-decoration:none;
+	text-transform:uppercase;
+	border-radius: 15px;
+	border: 1px solid #FF9E00;
+}
+.download-btn:hover{
+	background:gray;
+}
+.img-headline{
+    flex:10%;
+	margin-left: 20%;
+	padding: 5%;
+}
+.servicos{
+	display:inline-block;
+	padding:5px;
+	text-align:center;
+	background:black;
+	margin-top:0px;
+}
+.servicos h2{
+	width:100%;
+	font-size:50px;
+	margin:0px;
+	font-family: 'lobster', cursive;
+	font-weight:bold;
+	color:white;
+}
+.card{
+	display:inline-block;
+	width:25%;
+	padding:20px;
+	margin:1%;
+	border-radius:10px;
+	cursor:pointer;
+	color:white;
+	background:#393838;
+}
+.card:hover{
+	background:gray;	
+	padding:40px;
+	color:white;
+}
+.card:hover img{
+	display:none;
+}
+.card:hover .card-text{
+	display:none;
+}
+.card:hover .texto-oculto{
+	display:block;
+}
+.texto-oculto{
+	display:none;
+}
+.saiba-mais-card{
+	display: inline-block;
+	padding:20px;
+	border: 1px solid #FF9E00;
+	color:white;
+	text-decoration:none;
+	text-transform:uppercase;
+	border-radius: 10px;
+	margin-top:10px;
+
+}
+.rodape{
+	height:350px;
+	background:black;
+    background-image:url("../img/quadro.jpg");
+	background-size: cover;
+	text-align:center;
+	opacity: 0.8;
+	color:white;
+	padding:10px;
+}
+.direitos{
+	text-align:center;
+	background:black;
+	color:white;
+	padding:50px;
+}
+.icones{
+	background:black;
+	text-align:center;
+	margin-top:-40px;
+
+
+}
