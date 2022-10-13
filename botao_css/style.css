@@ -23,6 +23,7 @@ body{
 	flex:40%;
     max-width: 350px;
 	margin-right: 10%;
+	
 }
 .sobre-mim{
 	font-size:60px;
@@ -37,6 +38,7 @@ body{
 	padding:0;
 	margin:0;
 	display:flex;
+	
 }
 .headline p{
 	color:#FF9E00;
@@ -55,10 +57,11 @@ body{
 	background:gray;
 }
 .img-headline{
-	margin-right:10%;
+	margin-right:5%;
 	flex:40%;
 	text-align:center;
 	max-width: 550px;
+	
 }
 section{
 	display:inline-block;

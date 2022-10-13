@@ -108,9 +108,11 @@ border:0
   padding-top:0px;
 }
 .headline{
-	flex: 10%;
-	margin-right: 20%;
-	padding: 3%;
+	flex:40%;
+    max-width: 350px;
+	margin-right: 5%;
+	padding: 40px;
+	
 	
 }
 .sobre-mim{
@@ -138,15 +140,18 @@ border:0
 	text-decoration:none;
 	text-transform:uppercase;
 	border-radius: 15px;
+	margin-top: 10px;
 	border: 1px solid #FF9E00;
 }
 .download-btn:hover{
 	background:gray;
 }
 .img-headline{
-    flex:10%;
-	margin-left: 20%;
-	padding: 5%;
+	margin-right:5%;
+	flex:40%;
+	text-align:center;
+	max-width: 350px;
+	
 }
 .servicos{
 	display:inline-block;
@@ -201,7 +206,7 @@ border:0
 	margin-top:10px;
 
 }
-.rodape{
+.frase{
 	height:350px;
 	background:black;
     background-image:url("../img/quadro.jpg");
@@ -211,6 +216,12 @@ border:0
 	color:white;
 	padding:10px;
 }
+#aspas{
+	color:#FF9E00;
+	font-size: 130px;
+
+}
+
 .direitos{
 	text-align:center;
 	background:black;
