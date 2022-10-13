@@ -56,9 +56,6 @@ border:0
 	color:white;
 	padding:0;
 	margin:0;
-	display:flex;
-	justify-content: flex-start;
-	align-content: center;
 }
 .primeira_pagina h2{
 	font-weight:900;
