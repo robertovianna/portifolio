@@ -4,6 +4,7 @@ padding:0;
 margin:0;
 border:0
 }
+/* iNICIO CABEÇALHO*/
 .cabeçalho{
 	height:100vh;
 	align-items:start;
@@ -57,17 +58,7 @@ border:0
 	padding:0;
 	margin:0;
 }
-.primeira_pagina h2{
-	font-weight:900;
-	font-size:20px;
-	color:white;
-	padding:0;
-	margin:0;
-	display:flex;
-	justify-content: flex-start;
-	align-content: center;
-	
-}
+
 .primeira_pagina p{
 	color:white;
 	text-align:left;
@@ -93,6 +84,7 @@ border:0
 .saiba-mais-btn:hover{
 	background:gray;
 }
+/* IMAGEM-SOBRE-MIM*/
 .header{
   display:flex;
   flex-flow: row wrap;
@@ -106,8 +98,6 @@ border:0
     max-width: 350px;
 	margin-right: 5%;
 	padding: 40px;
-	
-	
 }
 .sobre-mim{
 	font-size:60px;
@@ -146,6 +136,7 @@ border:0
 	max-width: 350px;
 	
 }
+/* CARDS*/
 .servicos{
 	display:inline-block;
 	padding:5px;
@@ -154,9 +145,7 @@ border:0
 	margin-top:0px;
 }
 .servicos h2{
-	width:100%;
 	font-size:50px;
-	margin:0px;
 	font-family: 'lobster', cursive;
 	font-weight:bold;
 	color:white;
@@ -176,10 +165,7 @@ border:0
 	padding:40px;
 	color:white;
 }
-.card:hover img{
-	display:none;
-}
-.card:hover .card-text{
+.card:hover img, .card:hover .card-text{
 	display:none;
 }
 .card:hover .texto-oculto{
@@ -201,7 +187,6 @@ border:0
 }
 .frase{
 	height:350px;
-	background:black;
     background-image:url("../img/quadro.jpg");
 	background-size: cover;
 	text-align:center;
